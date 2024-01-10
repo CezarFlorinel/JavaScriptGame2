@@ -1,0 +1,121 @@
+body {
+    background-color: #292929;
+}
+
+@font-face {
+    font-family: "Press Start 2P";
+    src: url("../fonts/PressStart2P-Regular.ttf");
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto;   
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+
+.item-1 {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    
+}
+
+.item-2 {
+    grid-row: 2 / 2;
+    grid-column: 1 / 1;
+
+}
+
+.item-3 {
+    grid-row: 1 / 1;
+    grid-column: 3 / 3;
+    
+}
+
+.item-4 {
+    grid-row: 2 / 2;
+    grid-column: 3 / 3;
+
+}
+
+.item-5 {
+    grid-row: 3 / 3;
+    grid-column: 2 / 3;
+    place-self: center;
+}
+
+.item-6 {
+    grid-row: 2/ 2;
+    grid-column: 2 / 2;
+    place-self: center;
+}
+
+.item-6 img {
+    width: 205px; /* Adjust the width as needed */
+    height: 134px; /* Adjust the height as needed */
+    image-rendering: pixelated;
+}
+
+.item-7 {
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+    place-self: center;
+}
+
+.item-7 img {
+    width: 205px; /* Adjust the width as needed */
+    height: 205px; /* Adjust the height as needed */
+    image-rendering: pixelated;
+    transform: rotate(-35deg);
+}
+
+.item-8 {
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+    place-self: center;
+}
+
+.item-8 img {
+    width: 205px; /* Adjust the width as needed */
+    height: 205px; /* Adjust the height as needed */
+    image-rendering: pixelated;
+    transform: rotate(35deg);
+}
+
+.item-5 span:last-child {
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+div span:first-child {
+    color: white;
+    font-size: 20px;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+div span:last-child {   
+    color: #FBFF4E;
+    font-size: 30px;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.image-button {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.image-button img {
+    
+    width: 205px; /* Adjust the width as needed */
+    height: 134px; /* Adjust the height as needed */
+    transition: transform 0.3s ease; /* Optional: Smooth transition on hover */
+}
+
+/* Change the image on hover */
+.image-button:hover img {
+    content: url('/web_pages_images/Play hover.png'); /* Change to the desired image */
+}

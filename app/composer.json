@@ -1,0 +1,21 @@
+{
+    "name": "cezar/javascript-game",
+    "description": "MVC Website with JavaScript Game",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ciobanu Cezar Florinel"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": ".",
+            "App\\Controllers\\": "./controllers",
+            "App\\Models\\": "./models",
+            "App\\Services\\": "./services",
+            "App\\Repositories\\": "./repositories",
+            "App\\Views\\": "./views"            
+        }
+    }
+}

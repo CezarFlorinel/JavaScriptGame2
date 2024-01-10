@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: #333; /* Change the background color as desired */
+  color: #fff; /* Text color */
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center;
+  font-family: Arial, sans-serif; /* Change font family if desired */
+}
+
+header h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2em; /* Adjust font size as needed */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333; /* Change the background color as desired */
+  color: #fff; /* Text color */
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center;
+  font-family: Arial, sans-serif; /* Change font family if desired */
+  position: relative; /* Stick the footer to the bottom of the page */
+  width: 100%; /* Full width */
+  bottom: 0; /* Stick to the bottom */
+}
+
+main {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  height: 100vh; /* Set the height of the main element to fill the viewport */
+}
+
+
+ 
+
+

@@ -1,0 +1,33 @@
+footer {
+    background-color: #383838;
+}
+
+@font-face {
+    font-family: "Press Start 2P";
+    src: url("../fonts/PressStart2P-Regular.ttf");
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #383838;
+    padding: 10px;
+}
+
+.f1,
+.f4,
+.f3,
+.f2{
+    color: #fff;
+    font-size: 10px;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.f2 {
+    color: #ff0000;
+}
+
+

@@ -1,0 +1,63 @@
+header {
+    background-color: #383838;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #383838;
+}
+
+@font-face {
+    font-family: "Press Start 2P";
+    src: url("../fonts/PressStart2P-Regular.ttf");
+}
+
+.hed1,
+.hed2,
+.hed3,
+.hed4,
+.hed5,
+.hed6,
+.hed7,
+.hed8,
+.hed9,
+.hed10{
+    color: #fff;
+    font-size: 10px;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.hed2:hover,
+.hed3:hover,
+.hed4:hover,
+.hed5:hover,
+.hed6:hover {
+    color: red;
+}
+
+.hed9 {
+    color: #5FC45C;
+}
+
+.hed1 img{
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    image-rendering: pixelated;
+    margin-right: -40px;
+    margin-top: -12px;
+}
+
+.hed10 img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    image-rendering: pixelated;
+    border-radius: 50%; /* This creates a circular shape */
+    overflow: hidden; /* Ensures the image doesn't overflow the circle */
+}
+
+.hed8{
+    font-size: 20px;
+}
+
